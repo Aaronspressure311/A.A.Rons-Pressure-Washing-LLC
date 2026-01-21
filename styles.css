@@ -93,3 +93,10 @@ li {
   margin: 0;
   line-height: 1.4;
 }
+.logo {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 15px auto;
+}
+
