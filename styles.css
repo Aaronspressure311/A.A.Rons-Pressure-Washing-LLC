@@ -95,8 +95,8 @@ li {
 }
 .logo {
   display: block;
-  max-width: 200px;
+  max-width: 200px;   /* adjust size to fit your phone screen */
   height: auto;
-  margin: 15px auto;
+  margin: 15px auto;  /* centers the logo */
 }
 
