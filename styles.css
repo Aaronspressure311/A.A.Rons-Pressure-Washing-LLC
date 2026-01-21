@@ -1,65 +1,78 @@
+/* General body styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background: #f4f4f4;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
-header {
-  background: #0b3c5d;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-section {
-  background: white;
-  margin: 15px;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-h2 {
-  color: #0b3c5d;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-input, textarea, button {
-  width: 100%;
-  margin: 8px 0;
-  padding: 10px;
-}
-
-button {
-  background: #0b3c5d;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #ddd;
-}
+/* Navigation Tabs */
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin-bottom: 15px;
+  gap: 10px;
+  padding: 10px;
+  background-color: #0b3c5d;
+  justify-content: center;
 }
 
 nav button {
-  padding: 8px 12px;
+  padding: 10px 18px;
   border: none;
-  background-color: #0b3c5d;
+  background-color: #145374;
   color: white;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
+/* Active tab highlight */
+nav button.active {
+  background-color: #1b6c91;
+}
+
+/* Hover effect */
 nav button:hover {
-  background-color: #145374;
+  background-color: #1b6c91;
+}
+
+/* Section Styling */
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Section headings */
+section h1 {
+  color: #0b3c5d;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav button {
+    width: 100%;
+  }
 }
