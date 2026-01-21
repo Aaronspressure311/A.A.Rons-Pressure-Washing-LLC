@@ -99,4 +99,8 @@ li {
   height: auto;
   margin: 15px auto;  /* centers the logo */
 }
-
+.global-logo {
+  max-width: 180px;
+  margin: 10px auto;
+  display: block;
+}
