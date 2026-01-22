@@ -5,13 +5,12 @@ function showTab(tabId) {
     section.style.display = "none";
   });
 
-  const active = document.getElementById(tabId);
-  if (active) {
-    active.style.display = "block";
+  const activeSection = document.getElementById(tabId);
+  if (activeSection) {
+    activeSection.style.display = "block";
   }
 }
 
-// Show Home tab when page loads
 document.addEventListener("DOMContentLoaded", () => {
   showTab("home");
 });
