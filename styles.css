@@ -104,3 +104,17 @@ li {
   margin: 10px auto;
   display: block;
 }
+.facebook-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 18px;
+  background-color: #1877f2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.facebook-btn:hover {
+  background-color: #145dbf;
+}
