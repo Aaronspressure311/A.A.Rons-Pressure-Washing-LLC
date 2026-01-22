@@ -171,3 +171,22 @@
 
   <p>Click the tabs above to see all of our services and get in touch!</p>
 </section>
+<script>
+  function showTab(tabId) {
+    const sections = document.querySelectorAll("section");
+
+    sections.forEach(section => {
+      section.style.display = "none";
+    });
+
+    const activeSection = document.getElementById(tabId);
+    if (activeSection) {
+      activeSection.style.display = "block";
+    }
+  }
+
+  // Show Home by default on load
+  document.addEventListener("DOMContentLoaded", () => {
+    showTab("home");
+  });
+</script>
