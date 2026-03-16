@@ -2,177 +2,149 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>A.A. Ron’s Pressure Washing LLC</title>
-  <link rel="stylesheet" href="styles.css">
- <!-- <link rel="manifest" href="manifest.json"> -->
+  <title>A.A. Ron’s Pressure Washing LLC | Indianapolis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A.A. Ron’s Pressure Washing LLC provides professional pressure washing, soft washing, roof cleaning, deck & wood cleaning, painting, lighting, and exterior maintenance services in Indianapolis. Free estimates available.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <body>
 
-<!-- Global Logo -->
-<img src="logo.png" alt="A.A.Rons Pressure Washing LLC Logo" class="logo global-logo">
+  <!-- Header -->
+  <header class="site-header">
+    <img src="logo.png" alt="A.A. Ron’s Pressure Washing LLC Logo" class="logo">
+    <a href="tel:13174942807" class="call-btn">Call Now</a>
+    <a href="https://www.facebook.com/profile.php?id=61559933640037" target="_blank" class="facebook-btn">Facebook</a>
+  </header>
 
-<a href="https://www.facebook.com/profile.php?id=61559933640037" 
-   target="_blank" 
-   class="facebook-btn">
-  Visit Us on Facebook
-</a>
-<nav>
-  <button onclick="showTab('home')">Home</button>
-  <button onclick="showTab('exterior')">Exterior Cleaning</button>
-  <button onclick="showTab('maintenance')">Repairs & Maintenance</button>
-  <button onclick="showTab('painting')">Painting & Staining</button>
-  <button onclick="showTab('lighting')">Lighting</button>
-  <button onclick="showTab('contact')">Contact</button>
-<script src="app.js"></script>
-</nav>
-<section id="home">
-<h1>Professional Pressure Washing in Indianapolis</h1>
-<p>
-Driveways • Houses • Roofs • Decks • Commercial Buildings
-</p>
-<a href="tel:13174942807" class="call-btn">Call for Free Estimate</a>
-</section>
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <button onclick="showTab('home')">Home</button>
+    <button onclick="showTab('exterior')">Exterior Cleaning</button>
+    <button onclick="showTab('maintenance')">Repairs & Maintenance</button>
+    <button onclick="showTab('painting')">Painting & Staining</button>
+    <button onclick="showTab('lighting')">Permanent Lights</button>
+    <button onclick="showTab('contact')">Contact</button>
+    <button onclick="showTab('gallery')">Before & After</button>
+  </nav>
 
-<section id="exterior" style="display:none;">
-  <h1>Exterior Cleaning</h1>
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Professional Pressure Washing in Indianapolis</h1>
+    <p>Driveways • Houses • Roofs • Decks • Commercial Buildings</p>
+    <a href="tel:13174942807" class="call-btn">Call for Free Estimate</a>
+  </section>
 
-  <div class="service">
-    <h2>Pressure Washing</h2>
-    <p>We use high-pressure water to remove dirt, grime, mold, and mildew from concrete, driveways, patios, and more. Safe and effective for all exterior surfaces.</p>
-  </div>
+  <!-- Exterior Cleaning -->
+  <section id="exterior" style="display:none;">
+    <h1>Exterior Cleaning</h1>
+    <div class="service">
+      <h2>Pressure Washing</h2>
+      <p>High-pressure cleaning for concrete, driveways, patios, and more.</p>
+    </div>
+    <div class="service">
+      <h2>Soft Washing</h2>
+      <p>Gentle, eco-friendly cleaning for delicate surfaces.</p>
+    </div>
+    <div class="service">
+      <h2>Roof Washing</h2>
+      <p>Safe moss, algae, and debris removal to protect shingles.</p>
+    </div>
+    <div class="service">
+      <h2>Concrete Cleaning</h2>
+      <p>Restore driveways, sidewalks, and patios to a fresh appearance.</p>
+    </div>
+    <div class="service">
+      <h2>Deck & Wood Cleaning</h2>
+      <p>Remove dirt, mold, and mildew from decks, fences, and outdoor structures.</p>
+    </div>
+    <div class="service">
+      <h2>Storefront Cleaning</h2>
+      <p>Maintain a welcoming, polished appearance for your business.</p>
+    </div>
+  </section>
 
-  <div class="service">
-    <h2>Soft Washing</h2>
-    <p>Gentle, low-pressure cleaning with eco-friendly detergents for delicate surfaces like siding, stucco, and painted areas. Removes algae, mold, and dirt without damage.</p>
-  </div>
+  <!-- Repairs & Maintenance -->
+  <section id="maintenance" style="display:none;">
+    <h1>Repairs & Maintenance</h1>
+    <div class="service">
+      <h2>Deck Repair</h2>
+      <p>Fix damaged or rotting decks, replacing boards and reinforcing structure.</p>
+    </div>
+    <div class="service">
+      <h2>Gutter Cleaning & Inspections</h2>
+      <p>Remove debris and prevent clogs, leaks, or damage.</p>
+    </div>
+    <div class="service">
+      <h2>Concrete & Wood Sealing</h2>
+      <p>Protect surfaces from water damage and wear.</p>
+    </div>
+    <div class="service">
+      <h2>Log Home Maintenance & Restoration</h2>
+      <p>Cleaning, treating, and restoring log homes for beauty and durability.</p>
+    </div>
+  </section>
 
-  <div class="service">
-    <h2>Roof Washing</h2>
-    <p>We safely remove moss, algae, and debris from roofs using soft washing techniques that protect shingles and extend roof life.</p>
-  </div>
+  <!-- Painting & Staining -->
+  <section id="painting" style="display:none;">
+    <h1>Painting & Staining</h1>
+    <div class="service">
+      <h2>Interior & Exterior Painting / Staining</h2>
+      <p>Expert painting and staining for log homes, decks, and other surfaces.</p>
+    </div>
+  </section>
 
-  <div class="service">
-    <h2>Concrete Cleaning</h2>
-    <p>Deep cleaning for driveways, sidewalks, and patios using pressure washing and eco-friendly solutions to restore a fresh, clean appearance.</p>
-  </div>
+  <!-- Lighting -->
+  <section id="lighting" style="display:none;">
+    <h1>Permanent & Holiday Lighting</h1>
+    <div class="service">
+      <h2>Lighting Designs</h2>
+      <p>Custom layouts for residential and commercial properties.</p>
+    </div>
+    <div class="service">
+      <h2>Holiday Lighting</h2>
+      <p>Rental-style service: installation, maintenance, removal. Starting at <strong>$650</strong>.</p>
+    </div>
+    <div class="service">
+      <h2>Permanent Residential & Commercial Lighting</h2>
+      <p>High-quality commercial-grade lights for all outdoor applications including pathways, decks, landscaping, and architectural highlights.</p>
+    </div>
+  </section>
 
-  <div class="service">
-    <h2>Deck & Wood Cleaning</h2>
-    <p>We clean wood decks, fences, and outdoor structures, removing dirt, mold, and mildew. Optional sealing helps preserve wood and prevent damage.</p>
-  </div>
+  <!-- Before & After Gallery -->
+  <section id="gallery" style="display:none;">
+    <h1>Before & After</h1>
+    <div class="gallery">
+      <img src="before1.jpg" alt="Driveway before pressure washing">
+      <img src="after1.jpg" alt="Driveway after pressure washing">
+      <img src="before2.jpg" alt="House before soft wash">
+      <img src="after2.jpg" alt="House after soft wash">
+    </div>
+  </section>
 
-  <div class="service">
-    <h2>Storefront Cleaning</h2>
-    <p>Professional cleaning for business entrances and exterior surfaces to maintain a welcoming and polished appearance for your customers.</p>
-  </div>
-</section>
-</section>
+  <!-- Contact -->
+  <section id="contact" style="display:none;">
+    <h1>Contact Us</h1>
+    <p>Have questions or need a free estimate? Reach out — we’re happy to help.</p>
+    <div class="contact-info">
+      <p>📞 <strong>Phone:</strong> <a href="tel:13174942807">317-494-2807</a></p>
+      <p>✉️ <strong>Email:</strong> <a href="mailto:a.a.ronspressurewashing311@gmail.com">a.a.ronspressurewashing311@gmail.com</a></p>
+    </div>
+    <h2>Request a Free Estimate</h2>
+    <form action="https://formsubmit.co/a.a.ronspressurewashing311@gmail.com" method="POST">
+      <input type="hidden" name="_autoresponse" value="Thank you for contacting A.A. Ron’s Pressure Washing LLC! We will respond within 24 hours.">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" placeholder="Describe your project here"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 
-<section id="maintenance" style="display:none;">
-  <h1>Repairs & Maintenance</h1>
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 A.A. Ron’s Pressure Washing LLC. LICENSED AND INSURED</p>
+  </footer>
 
-  <div class="service">
-    <h2>Deck Repair</h2>
-    <p>We fix damaged or rotting decks, replacing boards, reinforcing structure, and restoring your outdoor space to safe, usable condition.</p>
-  </div>
-
-  <div class="service">
-    <h2>Gutter Cleaning & Inspections</h2>
-    <p>We remove debris from gutters and downspouts, ensuring proper water flow. Our inspections identify potential leaks, clogs, or damage before problems occur.</p>
-  </div>
-
-  <div class="service">
-    <h2>Concrete & Wood Sealing</h2>
-    <p>We apply protective sealants to concrete, decks, and wooden surfaces to prevent water damage, staining, and wear, extending the life of your surfaces.</p>
-  </div>
-
-  <div class="service">
-    <h2>Log Home Maintenance & Restoration</h2>
-    <p>We clean, treat, and restore log homes, repairing damage, preventing decay, and keeping your log home looking beautiful and structurally sound.</p>
-  </div>
-</section>
-</section>
-
-<section id="painting" style="display:none;">
-  <h1>Painting & Staining</h1>
-
-  <div class="service">
-    <h2>Interior & Exterior Painting / Staining</h2>
-    <p>Our team specializes in painting and staining log homes and decks, ensuring expert results and long-lasting protection. We also have experience with all other interior and exterior painting and staining projects, providing high-quality workmanship for any surface or property type.</p>
-  </div>
-</section>
-<section id="lighting" style="display:none;">
-  <h1>Lighting</h1>
-
-  <div class="service">
-    <h2>Our Lighting Designs</h2>
-    <p>Every lighting project begins with a **custom design**. We plan the layout and selection of lights to highlight your property beautifully and efficiently, ensuring your display is safe, visually stunning, and meets your needs.</p>
-  </div>
-
-  <div class="service">
-    <h2>Holiday Lighting</h2>
-    <p>Our holiday lighting service works like a **rental system**. We provide all the lights, professionally install them, maintain them throughout the season, and safely remove them afterward. Installation starts at <strong>$650</strong>, which covers setup, maintenance, and removal. Customers who continue with our services in following years receive a **discount** for repeat installations.</p>
-  </div>
-
-  <div class="service">
-    <h2>Permanent Residental And Commercial Outdoor Lighting</h2>
-    <p>For Permanent Residental and Commercial-grade lighting, we use **high-quality commercial-grade lights** for all outdoor applications including: landscape lighting, pathways, decks, exterior surfaces, and architectural highlights. This ensures long-lasting durability, reliable performance, and professional results for your property.</p>
-  </div>
-</section>
-
-</section>
-
-<section id="contact" style="display:none;">
-  <h1>Contact Us</h1>
-
-  <p>
-    Have questions or need a free estimate?  
-    Reach out — we’re happy to help.
-  </p>
-
-  <div class="contact-info">
-    <p>
-      📞 <strong>Phone:</strong>
-      <a href="tel:13174942807">317-494-2807</a>
-    </p>
-
-    <p>
-      ✉️ <strong>Email:</strong>
-      <a href="mailto:a.a.ronspressurewashing311@gmail.com">
-        a.a.ronspressurewashing311@gmail.com
-      </a>
-    </p>
-  </div>
-</section>
-<header>
-</header>\
-
-<section>
-  <h2>Request a Free Estimate</h2>
-  <form action="https://formsubmit.co/a.a.ronspressurewashing311@gmail.com" method="POST">
-<input type="hidden" name="_autoresponse" value="Thank you for contacting A.A. Ron’s Pressure Washing LLC! We have received your request and will be in touch as soon as possible, usually within 24 hours. If you need immediate assistance, please call or text us. We appreciate your business.">
-    <input type="text" name="name" placeholder="Name" required>
-<input type="tel" name="phone" placeholder="Phone Number" required>
-<textarea name="message" placeholder="Describe Estimate Here"></textarea>
-<button type="submit">SUBMIT</button>
-  </form>
-</section>
-
-<footer>
-  <p>© 2024 A.A. Ron’s Pressure Washing LLC.-
-  LICENSED AND INSURED</p>
-</footer>
-
+  <script src="app.js"></script>
 </body>
 </html>
-<section id="home" style="display:none;">
-  <h1>Welcome to A.A.Rons Pressure Washing LLC</h1>
-
-  <!-- Your logo -->
-  <img src="logo.png" alt="A.A.Rons Pressure Washing Logo" class="logo">
-
-  <p>Welcome to A.A.Rons Pressure Washing LLC! We provide professional pressure washing, soft washing, roof cleaning, concrete cleaning, deck & wood cleaning, painting, lighting, and more. Our team specializes in log homes and decks but has experience with all types of residential and commercial projects. </p>
-
-  <p>Click the tabs above to see all of our services and get in touch!</p>
