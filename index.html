@@ -4,147 +4,183 @@
   <meta charset="UTF-8">
   <title>A.A. Ron’s Pressure Washing LLC | Indianapolis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A.A. Ron’s Pressure Washing LLC provides professional pressure washing, soft washing, roof cleaning, deck & wood cleaning, painting, lighting, and exterior maintenance services in Indianapolis. Free estimates available.">
+  <meta name="description" content="Professional pressure washing in Indianapolis. Driveways, houses, roofs, decks, and more. Free estimates.">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <img src="logo.png" alt="A.A. Ron’s Pressure Washing LLC Logo" class="logo">
-    <a href="tel:13174942807" class="call-btn">Call Now</a>
-    <a href="https://www.facebook.com/profile.php?id=61559933640037" target="_blank" class="facebook-btn">Facebook</a>
-  </header>
+<!-- Header -->
+<header class="site-header">
+  <img src="logo.png" alt="Company Logo" class="logo">
+  <a href="tel:13174942807" class="call-btn">Call Now</a>
+  <a href="https://www.facebook.com/profile.php?id=61559933640037" target="_blank" class="facebook-btn">Facebook</a>
+</header>
 
-  <!-- Navigation -->
-  <nav class="site-nav">
-    <button onclick="showTab('home')">Home</button>
-    <button onclick="showTab('exterior')">Exterior Cleaning</button>
-    <button onclick="showTab('maintenance')">Repairs & Maintenance</button>
-    <button onclick="showTab('painting')">Painting & Staining</button>
-    <button onclick="showTab('lighting')">Permanent Lights</button>
-    <button onclick="showTab('contact')">Contact</button>
-    <button onclick="showTab('gallery')">Before & After</button>
-  </nav>
+<!-- Navigation -->
+<nav class="site-nav">
+  <button onclick="showTab('home')">Home</button>
+  <button onclick="showTab('exterior')">Exterior Cleaning</button>
+  <button onclick="showTab('maintenance')">Maintenance</button>
+  <button onclick="showTab('painting')">Painting</button>
+  <button onclick="showTab('lighting')">Lighting</button>
+  <button onclick="showTab('gallery')">Before & After</button>
+  <button onclick="showTab('contact')">Contact</button>
+</nav>
 
-  <!-- Home Section -->
-  <section id="home">
-    <h1>Professional Pressure Washing in Indianapolis</h1>
-    <p>Driveways • Houses • Roofs • Decks • Commercial Buildings</p>
-    <a href="tel:13174942807" class="call-btn">Call for Free Estimate</a>
-  </section>
+<!-- Home -->
+<section id="home">
+  <h1>Professional Pressure Washing</h1>
+  <p>Driveways • Houses • Roofs • Decks • Commercial</p>
+  <a href="tel:13174942807" class="call-btn">Get Free Estimate</a>
+</section>
 
-  <!-- Exterior Cleaning -->
-  <section id="exterior" style="display:none;">
-    <h1>Exterior Cleaning</h1>
-    <div class="service">
-      <h2>Pressure Washing</h2>
-      <p>High-pressure cleaning for concrete, driveways, patios, and more.</p>
-    </div>
-    <div class="service">
-      <h2>Soft Washing</h2>
-      <p>Gentle, eco-friendly cleaning for delicate surfaces.</p>
-    </div>
-    <div class="service">
-      <h2>Roof Washing</h2>
-      <p>Safe moss, algae, and debris removal to protect shingles.</p>
-    </div>
-    <div class="service">
-      <h2>Concrete Cleaning</h2>
-      <p>Restore driveways, sidewalks, and patios to a fresh appearance.</p>
-    </div>
-    <div class="service">
-      <h2>Deck & Wood Cleaning</h2>
-      <p>Remove dirt, mold, and mildew from decks, fences, and outdoor structures.</p>
-    </div>
-    <div class="service">
-      <h2>Storefront Cleaning</h2>
-      <p>Maintain a welcoming, polished appearance for your business.</p>
-    </div>
-  </section>
+<!-- Exterior -->
+<section id="exterior" style="display:none;">
+  <h1>Exterior Cleaning</h1>
+  <p>Driveways, sidewalks, siding, roofs, and more.</p>
+</section>
 
-  <!-- Repairs & Maintenance -->
-  <section id="maintenance" style="display:none;">
-    <h1>Repairs & Maintenance</h1>
-    <div class="service">
-      <h2>Deck Repair</h2>
-      <p>Fix damaged or rotting decks, replacing boards and reinforcing structure.</p>
-    </div>
-    <div class="service">
-      <h2>Gutter Cleaning & Inspections</h2>
-      <p>Remove debris and prevent clogs, leaks, or damage.</p>
-    </div>
-    <div class="service">
-      <h2>Concrete & Wood Sealing</h2>
-      <p>Protect surfaces from water damage and wear.</p>
-    </div>
-    <div class="service">
-      <h2>Log Home Maintenance & Restoration</h2>
-      <p>Cleaning, treating, and restoring log homes for beauty and durability.</p>
-    </div>
-  </section>
+<!-- Maintenance -->
+<section id="maintenance" style="display:none;">
+  <h1>Repairs & Maintenance</h1>
+  <p>Deck repair, sealing, gutter cleaning, and more.</p>
+</section>
 
-  <!-- Painting & Staining -->
-  <section id="painting" style="display:none;">
-    <h1>Painting & Staining</h1>
-    <div class="service">
-      <h2>Interior & Exterior Painting / Staining</h2>
-      <p>Expert painting and staining for log homes, decks, and other surfaces.</p>
-    </div>
-  </section>
+<!-- Painting -->
+<section id="painting" style="display:none;">
+  <h1>Painting & Staining</h1>
+  <p>Interior & exterior painting services.</p>
+</section>
 
-  <!-- Lighting -->
-  <section id="lighting" style="display:none;">
-    <h1>Permanent & Holiday Lighting</h1>
-    <div class="service">
-      <h2>Lighting Designs</h2>
-      <p>Custom layouts for residential and commercial properties.</p>
-    </div>
-    <div class="service">
-      <h2>Holiday Lighting</h2>
-      <p>Rental-style service: installation, maintenance, removal. Starting at <strong>$650</strong>.</p>
-    </div>
-    <div class="service">
-      <h2>Permanent Residential & Commercial Lighting</h2>
-      <p>High-quality commercial-grade lights for all outdoor applications including pathways, decks, landscaping, and architectural highlights.</p>
-    </div>
-  </section>
+<!-- Lighting -->
+<section id="lighting" style="display:none;">
+  <h1>Lighting</h1>
+  <p>Permanent and holiday lighting installation.</p>
+</section>
 
-  <!-- Before & After Gallery -->
-  <section id="gallery" style="display:none;">
-    <h1>Before & After</h1>
-    <div class="gallery">
-      <img src="before1.jpg" alt="Driveway before pressure washing">
-      <img src="after1.jpg" alt="Driveway after pressure washing">
-      <img src="before2.jpg" alt="House before soft wash">
-      <img src="after2.jpg" alt="House after soft wash">
+<!-- 🔥 BEFORE & AFTER SLIDER -->
+<section id="gallery" style="display:none; padding:40px; text-align:center;">
+  <h1>Before & After Results</h1>
+
+  <div class="slider-container">
+
+    <!-- Driveway -->
+    <div class="ba-slider">
+      <img src="images/driveway-after.jpg" alt="After pressure washing driveway">
+      <div class="resize">
+        <img src="images/driveway-before.jpg" alt="Before pressure washing driveway">
+      </div>
+      <div class="handle"></div>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" style="display:none;">
-    <h1>Contact Us</h1>
-    <p>Have questions or need a free estimate? Reach out — we’re happy to help.</p>
-    <div class="contact-info">
-      <p>📞 <strong>Phone:</strong> <a href="tel:13174942807">317-494-2807</a></p>
-      <p>✉️ <strong>Email:</strong> <a href="mailto:a.a.ronspressurewashing311@gmail.com">a.a.ronspressurewashing311@gmail.com</a></p>
-    </div>
-    <h2>Request a Free Estimate</h2>
-    <form action="https://formsubmit.co/a.a.ronspressurewashing311@gmail.com" method="POST">
-      <input type="hidden" name="_autoresponse" value="Thank you for contacting A.A. Ron’s Pressure Washing LLC! We will respond within 24 hours.">
-      <input type="text" name="name" placeholder="Name" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <textarea name="message" placeholder="Describe your project here"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2024 A.A. Ron’s Pressure Washing LLC. LICENSED AND INSURED</p>
-  </footer>
+<!-- Contact -->
+<section id="contact" style="display:none;">
+  <h1>Contact Us</h1>
+  <p>Call or request a free estimate below.</p>
 
-  <script src="app.js"></script>
+  <p><strong>Phone:</strong> <a href="tel:13174942807">317-494-2807</a></p>
+  <p><strong>Email:</strong> a.a.ronspressurewashing311@gmail.com</p>
+
+  <form action="https://formsubmit.co/a.a.ronspressurewashing311@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Describe your project"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2024 A.A. Ron’s Pressure Washing LLC</p>
+</footer>
+
+<!-- Styles for Slider -->
+<style>
+.slider-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.ba-slider img {
+  width: 100%;
+  display: block;
+}
+
+.resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #fff;
+  cursor: ew-resize;
+}
+
+.handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+</style>
+
+<!-- Scripts -->
+<script>
+function showTab(tabId) {
+  document.querySelectorAll("section").forEach(sec => {
+    sec.style.display = "none";
+  });
+  document.getElementById(tabId).style.display = "block";
+}
+
+// Slider functionality
+document.querySelectorAll('.ba-slider').forEach(slider => {
+  let dragging = false;
+  const handle = slider.querySelector('.handle');
+  const resize = slider.querySelector('.resize');
+
+  handle.addEventListener('mousedown', () => dragging = true);
+  window.addEventListener('mouseup', () => dragging = false);
+
+  window.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+
+    let rect = slider.getBoundingClientRect();
+    let offset = e.clientX - rect.left;
+    let width = rect.width;
+
+    let percent = (offset / width) * 100;
+    percent = Math.max(0, Math.min(100, percent));
+
+    handle.style.left = percent + "%";
+    resize.style.width = percent + "%";
+  });
+});
+</script>
+
 </body>
 </html>
